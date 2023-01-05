@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container{
+      background-color: #fff;
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%,50%);
+      text-align: center;
+      width: 350px;
+      height: 480px;
+      border: 2px solid hsl(0, 0%, 100%);
+      border-radius: 15px;
+    }
+
+    .container h3 {
+      font-size: 20px;
+    }
+
+    .container p {
+      font-size: 15px;
+    }
+
+    .container img {
+      position: relative;;
+      top: 10px;
+      width: 320px;
+      border-radius: 15px;
+    }
+
+    .footer{
+      font-size: 12px;
+      margin-top: 15px;
+    }
+
+    @media (max-width: 375px) {
+      .container {
+        background-color: #fff;
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        transform: translate(-50%,50%);
+        text-align: center;
+        width: 300px;
+        height: 410px;
+        border: 2px solid hsl(0, 0%, 100%);
+        border-radius: 15px;
+      }
+
+      .container img {
+      position: relative;;
+      top: 10px;
+      width: 280px;
+      border-radius: 15px;
+    }
+
+    .container h3 {
+      font-size: 17px;
+    }
+
+    .container p {
+      font-size: 13px;
+    }
+
+    .footer {
+      font-size: 10px;
+      margin-top: 10px;
+    }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <img src="images/image-qr-code.png" alt="">
+    
+    <h3>Improve your front-end skills by building projects</h3>
+
+     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  
+     <div class="attribution footer">
+       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+       Coded by <a href="#">Ebubekir Yılmaz</a>.
+     </div>
+  
+  </div>
+    
+</body>
+</html>
