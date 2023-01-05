@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://frontend-mentor-qr-jet.vercel.app/)
 
 
 ## Built with
@@ -34,4 +34,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Frontend Mentor - [@Abou1205](https://www.frontendmentor.io/profile/Abou1205)
 - Github - [@Abou1205](https://github.com/Abou1205)
 
-# frontend-mentor-qr
+
